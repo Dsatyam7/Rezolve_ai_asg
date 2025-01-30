@@ -31,7 +31,7 @@ Prerequisites: Python 3.8+, Azure OpenAI API Key
 **Setup**
 
 1. Clone the repository
-2. Unzip the zip file which contains the code base.(I was facing some issues with my github desktop so uploaded a zip file)
+2. Unzip the Rezolve_text_processing.zip file which contains the code base.(I was facing some issues with my github desktop so uploaded a zip file)
 3. Setup a virtual env.
 4. Install the dependencies from requirements.txt.
 5. Setup your environment variables in .env.base file.(If you are using OpenAI instead of AzureOpenAI, you may have to change the function names and response structures a bit as well).
