@@ -26,19 +26,16 @@ Modular structure for scalability
 
 Installation
 
-Prerequisites
-
-Python 3.8+
-
-Azure OpenAI API Key
+Prerequisites: Python 3.8+, Azure OpenAI API Key
 
 **Setup**
 
 1. Clone the repository
-2. Setup a virtual env.
-3. Install the dependencies from requirements.txt.
-4. Setup your environment variables in .env.base file.(If you are using OpenAI instead of AzureOpenAI, you may have to change the function names and response structures a bit as well).
-5. Run the application: uvicorn main:app --reload
+2. Unzip the zip file which contains the code base.(I was facing some issues with my github desktop so uploaded a zip file)
+3. Setup a virtual env.
+4. Install the dependencies from requirements.txt.
+5. Setup your environment variables in .env.base file.(If you are using OpenAI instead of AzureOpenAI, you may have to change the function names and response structures a bit as well).
+6. Run the application: uvicorn main:app --reload
 
 # API Endpoints
 
